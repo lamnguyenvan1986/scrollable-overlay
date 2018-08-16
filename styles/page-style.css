@@ -7,6 +7,9 @@ html, body {
     font-family: 'Roboto slab', serif;
     -webkit-font-smoothing: antialiased;
 }
+      .background-content{
+                -webkit-overflow-scrolling: touch;
+            }
 a {
     color: #000;
 }
