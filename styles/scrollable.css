@@ -38,11 +38,13 @@ html, body {
 .overlay .overlay-content {
     height: 100%;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .background-content {
     height: 100%;
     overflow: auto;
+    
     
     /*
      * If you want to use padding here, remember to add:
